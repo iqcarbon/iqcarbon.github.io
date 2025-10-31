@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Dashboard from './components/Dashboard';
-import ReportView from './components/ReportView';
-import { processData } from './utils/dataProcessor';
+import Header from 'src/components/Header';
+import Dashboard from 'src/components/Dashboard';
+import ReportView from 'src/components/ReportView';
+import { processData } from 'src/utils/dataProcessor';
 
 export default function App() {
   const [data, setData] = useState(null);
@@ -113,4 +113,5 @@ export default function App() {
       </div>
     </div>
   );
+
 }
